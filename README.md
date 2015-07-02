@@ -34,3 +34,5 @@ callback - optional, default is null
 - split into chunks for easier maintenance and testing
 - leverage groups; remove reliance on `toFront()` / `toBack()`
 - test suite; write tests
+- animate: false, does not work with 0.4.1 need bug fix
+- when hideHandles() is applied, restore the element cursor to default instead of keeping `move`
